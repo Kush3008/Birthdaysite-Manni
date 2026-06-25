@@ -348,10 +348,15 @@ function mediaTag(p,cls){ return isVid(p)
     <p class="mb rv d1" style="margin-bottom:20px">${C.secretSub}</p>
     <div class="ticket-wrap rv d1">
       <div class="ticket">
-        <div class="ticket-under">
-          <video id="secretVideo" playsinline controls preload="metadata"><source src="${M.video||C.videoFallback}"></video>
-          <button class="vplay" id="vidPlay">▶</button>
-          <div style="font-family:'Fraunces',Georgia,'Times New Roman',serif;font-style:italic;color:#E6D6F2;font-size:.95rem">press play 💜</div>
+        <div class="ticket-under" style="padding:24px;gap:8px;text-align:center">
+          <div style="font-size:2rem">🎟️</div>
+          <div style="font-family:'Fraunces',Georgia,serif;font-size:1.1rem;color:#F0CB7C;font-weight:400;letter-spacing:.04em">Birthday Voucher</div>
+          <div style="font-family:'Fraunces',Georgia,serif;font-style:italic;font-size:.88rem;color:#E6D6F2;line-height:1.7;max-width:280px">
+            One trip to the aquarium 🐠<br>
+            The underwater tunnel 🌊<br>
+            A really good meal 🍽️<br><br>
+            <span style="font-size:.75rem;opacity:.7;letter-spacing:.1em;text-transform:uppercase">Redeemable whenever · No expiry</span>
+          </div>
         </div>
         <div class="ticket-label">happy birthday</div>
         <canvas id="scratchCanvas"></canvas>
