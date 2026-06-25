@@ -85,8 +85,8 @@ window.CONFIG = {
   letterSign: "— your bestie, Kushu 🎂",
 
   /* ---- SCRATCH / SECRET ------------------------------------------------- */
-  secretEyebrow: "✦ one more thing ✦",
-  secretTitle: "a gift just for you",
-  secretSub: "Congratulations!! You have won a scratch ticket — a little surprise waiting for you.",
-  secretClose: "Happy birthday again, Manniii 🎂✨",
+  secretEyebrow: "✦ you won something ✦",
+  secretTitle: "a birthday voucher 🎟️",
+  secretSub: "Congratulations!! You have officially won — one trip to the aquarium, the underwater tunnel, and a really good meal. Redeemable whenever. No expiry. 🐠🌊🍽️",
+  secretClose: "Happy birthday Manniii — collect your prize 🎂✨",
 };
